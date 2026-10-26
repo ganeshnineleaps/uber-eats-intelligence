@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+dist/
+build/
+.coverage
+htmlcov/
+
+# local artifacts
+models/**/*.pkl
+models/**/*.joblib
+models/**/*.json
+!models/**/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/features/*
+!data/features/.gitkeep

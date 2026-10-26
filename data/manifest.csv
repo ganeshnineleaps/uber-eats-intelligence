@@ -1,0 +1,8 @@
+table,rows,columns
+customers,8000,16
+restaurants,500,14
+drivers,400,9
+orders,50000,20
+deliveries,47851,14
+payments,50000,10
+reviews,19082,9
