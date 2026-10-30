@@ -1,0 +1,24 @@
+
+DATASET OVERVIEW
+       Dataset   Rows  Columns  Missing Values
+0    Customers   8000       32             899
+1  Restaurants    500        7               0
+2    Sentiment  19082       10               0
+3     Delivery   9082        4               0
+
+SENTIMENT ANALYSIS
+Sentiment distribution:
+                 Review Count  Percentage
+sentiment_label                          
+positive                14132       74.06
+neutral                  3809       19.96
+negative                 1141        5.98
+
+NEGATIVE REVIEW EXAMPLES
+['RV0000013', 'RV0000022', 'RV0000056', 'RV0000065', 'RV0000072']
+
+DELIVERY TIME PREDICTION
+MAE: 0.00
+RMSE: 0.00
+Actual column: actual_delivery_time
+Predicted column: predicted_delivery_time
